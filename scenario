@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hi Manoj Reddy</title>
+</head>
+<body>
+    <h1>Welcome Manoj</h1>
+    <p>This is my simple website.</p>
+</body>
+</html>
+
+
+
+second code:
+
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html/
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
